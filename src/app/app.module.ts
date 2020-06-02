@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { EventsListComponent } from './events-list/events-list.component';
+import { EventThumbComponent } from './event-thumb/event-thumb.component';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EventThumbComponent,
+    EventsListComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,

@@ -28,9 +28,13 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/ngf-bootstrap/dist/bootstrap.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -123,6 +127,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Events"
+    }
+  },
+  "defaultProject": "Events",
+  "cli": {
+    "analytics": "8a4f0da3-9863-491b-b40e-bdf4137baa16"
+  }
 }
